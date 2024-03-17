@@ -37,3 +37,4 @@ dashboard.html
 # Local development
 *.log
 .env
+.DS_Store

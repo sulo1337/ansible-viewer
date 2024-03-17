@@ -1,0 +1,21 @@
+all:
+  children:
+    physical:
+      hosts:
+        host1:
+        host2:
+    virtual:
+      hosts:
+        host3:
+    hypervisor:
+      hosts:
+        host1:
+
+docker_hosts:
+  children:
+    docker_hosts_physical:
+      hosts:
+        host1:
+    docker_hosts_virtual:
+      hosts:
+       host3:

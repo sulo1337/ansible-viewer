@@ -26,6 +26,22 @@ A lightweight web-based dashboard for visualizing Ansible inventory and facts da
 
 - Python 3.6+
 - Web browser with JavaScript enabled
+- Ansible config that will store facts in json file
+
+Example config
+```
+[defaults]
+fact_caching = jsonfile
+fact_caching_connection = /path/to/store/facts
+fact_caching_timeout = 86400
+```
+- Collected ansible facts. We can run `gather_facts.yml` to gather facts
+
+## Screenshots
+
+![Overview](screenshots/1.png "Overview")
+![Table of hosts & filtering](screenshots/2.png "Table of hosts & filtering")
+![Host details](screenshots/3.png "Host details")
 
 ## Installation
 
