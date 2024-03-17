@@ -49,7 +49,7 @@ class FactsParser:
     def get_processor_info(self, hostname):
         facts = self.get_host_facts(hostname)
         return {
-            'cores': facts.get('ansible_processor_cores', 0),
+            'cores': facts.get('ansible_processor_vcpus', 0),
             'count': facts.get('ansible_processor_count', 0),
             'vcpus': facts.get('ansible_processor_vcpus', 0)
         }
