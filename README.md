@@ -39,8 +39,11 @@ fact_caching_timeout = 86400
 
 ## Screenshots
 
+Overview
 ![Overview](screenshots/1.png "Overview")
+Table of hosts & filtering
 ![Table of hosts & filtering](screenshots/2.png "Table of hosts & filtering")
+Host details
 ![Host details](screenshots/3.png "Host details")
 
 ## Installation
